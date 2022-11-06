@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Importação de fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+<!--Linkando os códigos CSS-->
+    <link rel="stylesheet" href="./SRC/CSS/estilos.css">
+    <title>Cartão de apresentação</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./SRC/imagens/foto-perfil.jpg" alt="foto de perfil">
+            <h1 class="nome">Gilberto Ribas Dos Santos Junior</h1>
+            <h2 class="cargo">Desenvolvedor Frontend junior</h2>
+        </div>
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./SRC/imagens/sobre.gif" alt="icone sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./SRC/imagens/giphy (1).gif" alt="icone redes sociais">
+                </li>
+            </ul>
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+                    <div class="descricao">
+                        <p>Oi! Meu nome é Gilberto, seja bem-vindo(a)!</p>
+                        <p>Desde pequeno sou apaixonado por tecnologia e
+                            sempre tive o sonho de trabalhar nessa área,
+                            porém, só comecei estudar sobre programação
+                            em 2022(é eu devia ter começado antes). Meu
+                            contato mais aprofundado com a tecnologia iniciou
+                            em 2019 quando comecei a trabalhar com telecomunicações,
+                            onde atualmente trabalho com fibra optica. Agora
+                            comecei a colocar esse sonho de me tornar DEV
+                            em prática, iniciei pelo Python porém mudei
+                            meu foco para <span><strong>JavaScript</strong></span>
+                            e junto dele <span><strong>HTML e CSS.</strong></span>
+                            Acredito que eu tenho uma pegada levemente
+                            perfeccionista e isso foi a razão de mudar
+                            meu foco para o frontend.
+                            Gosto muito de café (sério), e meus hobbies são
+                            ver séries e filmes.</p>
+                    </div>
+                </div>
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">redes sociais</h3>
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://www.canva.com/design/DAFPIuXo09A/yQrm1mqwBNnRtCyVgBGFmg/view?utm_content=DAFPIuXo09A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" class="curriculo">Currículo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/gilberto-ribas-2a4098252/" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ribasgil" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+<!--linkando o código JS-->
+    <script src="./SRC/js/index.js"></script>
+</body>
+</html>
